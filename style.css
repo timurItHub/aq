@@ -1,0 +1,343 @@
+/* Общие стили */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Стили для шапки */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Стили для основного контента */
+main {
+    margin-top: 80px;
+}
+
+.hero {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff3333;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+}
+
+.feature {
+    width: 30%;
+    text-align: center;
+}
+
+.feature img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.menu {
+    background-color: #20bcc7;
+    padding: 80px 0;
+    text-align: center;
+    background: linear-gradient(to bottom, #00bcd4, #4caf50);
+
+}
+
+.menu h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.menu p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu li {
+    width: 25%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.menu li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.saunas {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.saunas h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.saunas p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.saunas ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.saunas li {
+    width: 25%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.saunas li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Стили для подвала */
+footer {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;    
+    font-size: 16px;
+    line-height: 1.5;
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(to bottom, #00bcd4, #4caf50);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.feature {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.feature img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+.btn, a {
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover, a:hover {
+    transform: scale(1.1);
+}
+
+.feature i {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.feature i.fa-swimming-pool {
+    color: #00bcd4;
+}
+
+.feature i.fa-water-slide {
+    color: #4caf50;
+}
+
+.feature i.fa-sun-o {
+    color: #ffc107;
+}
+
+.hero h1 {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
